@@ -4,6 +4,10 @@ kd-tree in c++, some code from doubao
 # build
 `g++ -O3 -Wall -Wextra KDTree_cluster.cpp -o kdt`
 
+# some difference with PCL
+
+if you want PCL kd-tree, you should mark two lines `if((int) out_indices_all.size() >= MaxClusterSize_) break; // PCL continue not break`.
+
 # `radius_search` Line-by-Line Breakdown: Why Is It Written This Way?
 
 The core idea of this code is: **leverage the spatial partitioning of the KD-Tree to only search subtrees that the "search sphere" could possibly reach, and directly prune away entire regions that cannot contain any results.**
