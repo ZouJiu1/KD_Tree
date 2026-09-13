@@ -2,7 +2,7 @@
 kd-tree in c++, some code from doubao
 
 # build
-``
+`g++ -O3 -Wall -Wextra KDTree_cluster.cpp -o kdt`
 
 # `radius_search` Line-by-Line Breakdown: Why Is It Written This Way?
 
