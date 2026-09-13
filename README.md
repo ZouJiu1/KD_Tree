@@ -1,5 +1,5 @@
 # KD_Tree
-kd-tree in c++, some code from doubao
+kd-tree in c++, some code from doubao, 主体部分我自己写好了，但是优化和测试部分是豆包帮忙共同完成的，because I never used function `std::nth_element` before.
 
 # build
 `g++ -O3 -Wall -Wextra KDTree_cluster.cpp -o kdt`
